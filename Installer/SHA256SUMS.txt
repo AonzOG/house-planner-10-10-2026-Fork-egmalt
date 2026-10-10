@@ -1,0 +1,8 @@
+# House Planner Dual-Repository Installer v1.0.2 - 2026-10-10 Fiji
+11e0c7834f495b023685a3911e7f81c47c140a5c3846294de1a4a7cf04fb0f4b  HousePlanner-Unix-Core.sh
+edd4dcffcd027193a85e5a5f3070a98ffab882e6c61314272fe9bb9d46322be9  HousePlanner-Wizard.ps1
+bfc04dc22b3a06ee4e6e0ddcdb4c41a6e373fb4bde75d73a65dbe4a957b00ef9  Install House Planner - Linux.sh
+2485f0db9c727f19ec210781f9447f2ec121752b0dacf4b8214e95f938fd92ef  Install House Planner - Windows.bat
+0913b4b610e159470f9686c4e154eb7eda9ba165a5a75c1f7fbe165d3aa5b573  Install House Planner - macOS.command
+ec44011c5263ea8e89f7101a6d1f3aae78d6c404acda6ffd83bd24657577645b  README-Installer.md
+2423cb7a2496231855f04524cbd49c3ec53d6b5181ff08c8805a5771e60e1be1  VALIDATION-REPORT.md
