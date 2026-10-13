@@ -10,15 +10,13 @@ Security fixes go into the latest release on the `main` branch. Self-hosted inst
 
 ## Reporting a vulnerability
 
-**All vulnerability reports and security or privacy concerns about this repository must be submitted exclusively to AonzOG through this GitHub repository.** This applies to the original House Planner application code as distributed here, AonzOG-maintained installer scripts, Docker and deployment configuration, and any other files or modifications included in this fork.
+**All vulnerability reports, suspected security flaws, and privacy concerns about this AonzOG House Planner repository must be sent directly by email to Astra, AonzOG's designated security contact: [astra.sharma8@gmail.com](mailto:astra.sharma8@gmail.com).** This email address is the sole reporting channel for vulnerabilities concerning this fork.
 
-**Private reporting destination:** [AonzOG House Planner — Report a vulnerability](https://github.com/AonzOG/house-planner-10-10-2026-Fork-egmalt/security/advisories/new) (open this repository's **Security → Report a vulnerability** form).
+This includes the original House Planner application code as distributed in this fork, AonzOG-maintained installers, Docker and deployment configuration, and all other files or modifications included in this repository.
 
-The form is available only when this repository's administrators have enabled **Private vulnerability reporting** in GitHub under **Settings → Security and quality → Advanced Security**. If the reporting form is unavailable, do not disclose exploit details in public issues or pull requests. A repository administrator needs to enable private vulnerability reporting before confidential submissions can be accepted through that form.
+Use the email subject **Security report: AonzOG House Planner**. Where possible, include the affected file or endpoint, steps to reproduce, the observed impact, and a suggested fix. Do not include passwords, access tokens, or unrelated personal data in the report. Reports in English or Russian are welcome.
 
-AonzOG's repository is the **sole designated reporting destination** for vulnerabilities involving this fork. Do not submit reports about this fork to other repositories, developers, email addresses, or organizations.
-
-Include, where possible, the affected file or endpoint, reproduction steps, observed impact, and a suggested fix. Reports in English or Russian are welcome.
+Do not disclose exploitable vulnerabilities through public GitHub issues or pull requests, and do not submit vulnerability reports concerning this fork to any other developer, repository, organisation, or email address.
 
 ## Scope
 
