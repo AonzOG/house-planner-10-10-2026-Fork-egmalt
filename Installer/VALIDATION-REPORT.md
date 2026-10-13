@@ -1,5 +1,15 @@
 # House Planner installer v1.0.2 - Windows occupied-port handling
 
+## Maintainer-reported Windows BAT installation — 10 October 2026
+
+**Reported result:** After receiving installer v1.0.2, the repository maintainer stated: "The Windows bat installer works." This records a **maintainer-reported successful Windows BAT installation**, not an independent native-Windows execution by the authoring environment. No installer code was changed as part of recording this report.
+
+**Earlier Windows observations:** The v1.0 installer failed to pass arguments to Docker. Version 1.0.1 correctly ran `docker compose version` (v5.5.1) and `docker info --format {{.OSType}}` (`linux`), but then stopped because port 8080 was occupied. Version 1.0.2 added the alternative-port prompt and renamed the second selection to "Back up Fork."
+
+**Evidence boundaries:** The maintainer's confirmation does not, by itself, independently validate the exact selected source, setup-key display, completed first-run password setup, browser rendering, saved-plan persistence, Repair, Uninstall, failed-update rollback, or source switching. Linux and macOS native installers remain unverified. The statements below that Windows was "not native-runtime tested" accurately describe the earlier development-environment tests; they are retained as historical findings rather than silently rewritten.
+
+---
+
 **Observed:** At 22:40:39 on 10 October 2026, the v1.0.1 Windows log showed `docker compose version` => v5.5.1, and `docker info --format {{.OSType}}` => `linux`. Docker runtime prerequisite detection **passed on the user's Windows computer**. At 22:40:41, installation stopped at the new `Assert-PortFree 8080` check because an existing process owns that loopback port. This is a valid environmental conflict, not a regression in Docker detection. No source archive was acquired before this stop.
 
 **Scoped changes in v1.0.2:**
