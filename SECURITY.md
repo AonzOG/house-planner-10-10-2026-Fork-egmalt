@@ -10,15 +10,19 @@ Security fixes go into the latest release on the `main` branch. Self-hosted inst
 
 ## Reporting a vulnerability
 
-Please do not open a public issue for security problems. Report them privately through GitHub: **Security → Report a vulnerability** on this repository, or directly at <https://github.com/egmalt/house-planner/security/advisories/new>. If you cannot use GitHub, email [hello@homedesignsai.pro](mailto:hello@homedesignsai.pro) with "Security" in the subject.
+**All vulnerability reports and security or privacy concerns about this repository must be submitted exclusively to AonzOG through this GitHub repository.** This applies to the original House Planner application code as distributed here, AonzOG-maintained installer scripts, Docker and deployment configuration, and any other files or modifications included in this fork.
 
-Include what you can: the affected file or endpoint, steps to reproduce, the impact you see, and a suggested fix if you have one. Reports in English or Russian are fine.
+**Private reporting destination:** [AonzOG House Planner — Report a vulnerability](https://github.com/AonzOG/house-planner-10-10-2026-Fork-egmalt/security/advisories/new) (open this repository's **Security → Report a vulnerability** form).
 
-You can expect an acknowledgement within 7 days and a status update after the issue is assessed. Once a fix is released, the advisory is published with credit to the reporter, unless you prefer to stay anonymous.
+The form is available only when this repository's administrators have enabled **Private vulnerability reporting** in GitHub under **Settings → Security and quality → Advanced Security**. If the reporting form is unavailable, do not disclose exploit details in public issues or pull requests. A repository administrator needs to enable private vulnerability reporting before confidential submissions can be accepted through that form.
+
+AonzOG's repository is the **sole designated reporting destination** for vulnerabilities involving this fork. Do not submit reports about this fork to other repositories, developers, email addresses, or organizations.
+
+Include, where possible, the affected file or endpoint, reproduction steps, observed impact, and a suggested fix. Reports in English or Russian are welcome.
 
 ## Scope
 
-In scope: the PHP API in `public/api/` (authentication, the login cookie, CSRF protection, storage access, the setup wizard, the Petrovich cart proxy), the `.htaccess` rules that close `storage/`, `data/` and `plans/`, the Docker image, the deploy and plan scripts in `scripts/`, and the frontend.
+In scope: the PHP API in `public/api/` (authentication, the login cookie, CSRF protection, storage access, the setup wizard, the Petrovich cart proxy), the `.htaccess` rules that close `storage/`, `data/` and `plans/`, the Docker image, the deploy and plan scripts in `scripts/`, the frontend, and the AonzOG-maintained installer files in `Installer/` (Windows BAT/PowerShell, Linux/macOS wrappers, shared Unix core, source downloads, setup-key handling, repair, and uninstall).
 
 Out of scope: misconfiguration of a particular hosting (for example, nginx without the equivalent of the `.htaccess` rules), the PHP built-in server used for local development, attacks that need the planner password, and third-party services (petrovich.ru, imagery tiles).
 

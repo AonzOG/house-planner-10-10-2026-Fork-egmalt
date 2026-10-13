@@ -29,7 +29,7 @@ The Linux and macOS installation scripts are included but have not yet undergone
 
 1. Download the repository using **Code → Download ZIP**, or clone it using Git.
 2. Extract the downloaded files.
-3. Open the `installer` folder.
+3. Open the `Installer` folder.
 4. Double-click **`Install House Planner - Windows.bat`**.
 5. Select **Install**, then choose **Original Repository** or **Back up Fork**.
 6. Select the installation directory (default: `C:\house-planner`).
@@ -78,7 +78,7 @@ The installer preserves the existing Docker project-data volume during repair an
 
 ### 📁 Installer Files
 
-All installation files are available in the repository's [`installer/`](installer/) directory.
+All installation files are available in the repository's [`Installer/`](Installer/) directory.
 
 **Windows users:** Run `Install House Planner - Windows.bat`.
 
