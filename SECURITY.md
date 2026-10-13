@@ -10,13 +10,13 @@ Security fixes go into the latest release on the `main` branch. Self-hosted inst
 
 ## Reporting a vulnerability
 
-**All vulnerability reports, suspected security flaws, and privacy concerns about this AonzOG House Planner repository must be sent directly by email to Astra, AonzOG's designated security contact: [astra.sharma8@gmail.com](mailto:astra.sharma8@gmail.com).** This email address is the sole reporting channel for vulnerabilities concerning this fork.
+**Ordinary bugs and feature requests — public GitHub Issues:** Submit non-security bugs, installation failures, and feature requests to [AonzOG House Planner Issues](https://github.com/AonzOG/house-planner-10-10-2026-Fork-egmalt/issues). GitHub Issues are public, so remove passwords, setup keys, access tokens, personal information, and sensitive log contents before posting.
 
-This includes the original House Planner application code as distributed in this fork, AonzOG-maintained installers, Docker and deployment configuration, and all other files or modifications included in this repository.
+**Security vulnerabilities — confidential GitHub reporting only:** Do **not** disclose vulnerabilities, exploits, security-sensitive reproduction steps, or confidential security logs in public Issues, pull requests, or Discussions. Report security vulnerabilities **exclusively to AonzOG** through [GitHub Private Vulnerability Reporting for this repository](https://github.com/AonzOG/house-planner-10-10-2026-Fork-egmalt/security/advisories/new) under **Security → Report a vulnerability**.
 
-Use the email subject **Security report: AonzOG House Planner**. Where possible, include the affected file or endpoint, steps to reproduce, the observed impact, and a suggested fix. Do not include passwords, access tokens, or unrelated personal data in the report. Reports in English or Russian are welcome.
+This private channel covers vulnerabilities in all code distributed in this fork, including original House Planner application code, AonzOG-maintained Windows, Linux and macOS installers, Docker configuration, deployment scripts, and other repository content. Include the affected component, steps to reproduce, impact, and a suggested fix where possible, without sending passwords, access tokens, or unrelated personal data.
 
-Do not disclose exploitable vulnerabilities through public GitHub issues or pull requests, and do not submit vulnerability reports concerning this fork to any other developer, repository, organisation, or email address.
+**Availability:** The private reporting form appears only if AonzOG has enabled GitHub's **Private vulnerability reporting** setting for this repository. If the form is unavailable, the repository administrator must enable it. **Do not publish vulnerability details in any public GitHub channel while it is unavailable.**
 
 ## Scope
 
